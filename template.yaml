@@ -23,7 +23,7 @@ Resources:
             Path: /hello
             Method: get
     Metadata:
-      DockerTag: python3.7-v1
+      DockerTag: python3.9-v1
       DockerContext: ./hello_world
       Dockerfile: Dockerfile
 
@@ -39,7 +39,7 @@ Resources:
             Path: /item
             Method: get
     Metadata:
-      DockerTag: python3.7-v1
+      DockerTag: python3.9-v1
       DockerContext: ./item
       Dockerfile: Dockerfile
 
@@ -54,7 +54,7 @@ Resources:
             Path: /item
             Method: post
     Metadata:
-      DockerTag: python3.7-v1
+      DockerTag: python3.9-v1
       DockerContext: ./item
       Dockerfile: Dockerfile
 
@@ -69,7 +69,7 @@ Resources:
             Path: /item/{id}
             Method: put
     Metadata:
-      DockerTag: python3.7-v1
+      DockerTag: python3.9-v1
       DockerContext: ./item
       Dockerfile: Dockerfile
       
